@@ -1,0 +1,33 @@
+{
+  "name": "dncjs",
+  "version": "0.0.1",
+  "description": "DN Converter Expert",
+  "main": "lib/dnc",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-sabelhaus/dncjs.git"
+  },
+  "keywords": [
+    "DN"
+  ],
+  "author": "Eric Sabelhaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-sabelhaus/dncjs/issues"
+  },
+  "homepage": "https://github.com/e-sabelhaus/dncjs",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-passport-strategy": "^0.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4",
+    "grunt-plato": "^1.2.1",
+    "mocha": "^2.1.0"
+  }
+}
